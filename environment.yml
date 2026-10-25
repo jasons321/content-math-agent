@@ -1,0 +1,15 @@
+name: ollama-study-agent
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - streamlit
+    - langchain
+    - langchain-classic
+    - langchain-community
+    - langchain-ollama
+    - chromadb
+    - nbformat
